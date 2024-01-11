@@ -17,7 +17,7 @@
 			<a class="relative inline-block px-2 font-bold uppercase tracking-wider" href="/">
 				<span>Learn more</span>
 				<span
-					class={`absolute -bottom-0.5 left-0 -z-10 block h-3 w-full rounded-full opacity-50 bg-${color}`}
+					class={`absolute -bottom-0.5 left-0 -z-10 block h-3 w-full rounded-full opacity-50 ${color}`}
 				/>
 			</a>
 		</div>
@@ -30,8 +30,8 @@
 			<img src={image} alt="transform" />
 		</div>
 		<div class="space-y-8 px-8 py-14 text-center absolute bottom-0 left-0">
-			<h2 class={`text-3xl font-bold text-${color}`}>{title}</h2>
-			<p class={`font-barlow text-lg font-semibold text-${color}`}>{text}</p>
+			<h2 class={`text-3xl font-bold ${color}`}>{title}</h2>
+			<p class={`font-barlow text-lg font-semibold ${color}`}>{text}</p>
 		</div>
 	</section>
 {/if}
