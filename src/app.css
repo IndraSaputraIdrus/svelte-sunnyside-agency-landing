@@ -19,3 +19,8 @@
   }
 }
 
+@layer components {
+  .wrapper {
+    @apply mx-auto min-w-[375px] max-w-[1440px]
+  }
+}

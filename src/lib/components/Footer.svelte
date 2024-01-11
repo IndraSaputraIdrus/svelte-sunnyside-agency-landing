@@ -19,17 +19,17 @@
 	];
 </script>
 
-<footer class="bg-primary-500 px-8 py-14 font-barlow text-primary-300">
+<footer class="wrapper bg-primary-500 px-8 py-14 font-barlow text-primary-300">
 	<h2 class="text-center text-4xl font-black">sunnyside</h2>
-	<ul class="mt-10 flex items-center justify-between text-lg font-medium">
+	<ul class="mt-10 flex items-center justify-center gap-8 text-lg font-medium">
 		<li>
-			<a href="/">About</a>
+			<a href="#about">About</a>
 		</li>
 		<li>
-			<a href="/">Services</a>
+			<a href="#services">Services</a>
 		</li>
 		<li>
-			<a href="/">Projects</a>
+			<a href="#projects">Projects</a>
 		</li>
 	</ul>
 
