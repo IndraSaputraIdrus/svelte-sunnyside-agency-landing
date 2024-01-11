@@ -13,7 +13,7 @@
 
 <header id="home" class="wrapper relative text-neutral-100">
 	<nav class="absolute left-0 right-0 top-0 flex items-center justify-between px-7 py-8 lg:px-10">
-		<a href="#home" class="font-barlow text-3xl font-semibold">sunnyside</a>
+		<a href="#home" class="font-barlow text-3xl font-semibold lg:text-4xl lg:font-black">sunnyside</a>
 
 		<button on:click={handleClick} class="-mr-1 text-neutral-100 lg:hidden">
 			{#if navActive}

@@ -19,7 +19,7 @@
 		</picture>
 		<div
 			class={`space-y-8 px-8 py-20 text-center md:space-y-11 md:p-24 lg:row-start-1 lg:py-0 lg:text-start ${
-				reverse ? 'lg:col-start-1' : 'lg:col-start-2'
+				reverse ? 'lg:col-start-1' : 'lg:col-start-2' 
 			}`}
 		>
 			<h2 class="text-3xl font-bold md:text-5xl">{title}</h2>
